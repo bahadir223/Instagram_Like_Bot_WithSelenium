@@ -20,7 +20,7 @@ public class C01_Instagram_Like_Bot extends TestBase {
         // kullanici girisi yaptik
         driver.get(" https://instagram.com ");
         driver.findElement(By.xpath("//input[@name='username']"))
-                .sendKeys("yazilimbot", Keys.TAB, "gecetimi.123", Keys.TAB, Keys.TAB, Keys.ENTER);
+                .sendKeys("kendinize ait bir hesap giriniz", Keys.TAB, "Şifreniz", Keys.TAB, Keys.TAB, Keys.ENTER);
 
         // giris bilgilerin kaydedilsin mi sorusuna simdi degili tikla
         driver.findElement(By.cssSelector("[class='_ac8f']")).click();
